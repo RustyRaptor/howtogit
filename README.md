@@ -13,7 +13,7 @@ First we need to get familiar with git.
             - copy the https clone link at the top rightish
             - run this command
 ```bash
-                git clone linkyoucopiedhere
+git clone linkyoucopiedhere
 ```
 
         - now you have your repo in a folder where you cloned it. 
@@ -23,18 +23,18 @@ First we need to get familiar with git.
 	    
         - stage your changes
 ```bash
-            git add .
+git add .
 
-            # the "." at the end indicates that we want
-            # to stage all the changes in the current folder
-            # this is usually what we want to do. 
-            # Sometimes we might want to stage a specific file
+# the "." at the end indicates that we want
+# to stage all the changes in the current folder
+# this is usually what we want to do. 
+# Sometimes we might want to stage a specific file
 ```
 
         - commit your changes. This will finalize the changes and document them
-            ```bash 
-            git commit -m 'this is a commit message. you should typically put something descriptive of your changes here :)'
-            ```
+```bash 
+git commit -m 'this is a commit message. you should typically put something descriptive of your changes here :)'
+```
         - now push your changes
 ```
 git push
