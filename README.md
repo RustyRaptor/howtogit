@@ -12,9 +12,9 @@ First we need to get familiar with git.
         - clone your repo
             - copy the https clone link at the top rightish
             - run this command
-                ```bash
+```bash
                 git clone linkyoucopiedhere
-                ```
+```
 
         - now you have your repo in a folder where you cloned it. 
         - Make some changes to it
@@ -22,26 +22,26 @@ First we need to get familiar with git.
             - add some text to it somewhere.
 	    
         - stage your changes
-            ```bash
+```bash
             git add .
 
             # the "." at the end indicates that we want
             # to stage all the changes in the current folder
             # this is usually what we want to do. 
             # Sometimes we might want to stage a specific file
-            ```
+```
 
         - commit your changes. This will finalize the changes and document them
             ```bash 
             git commit -m 'this is a commit message. you should typically put something descriptive of your changes here :)'
             ```
         - now push your changes
-            ```bash
-            git push
+```
+git push
 
-            # sometimes it may ask for a username and password if it's a private repository.
-	    # it may also ask you to enter your details so it can sign your commits (this is one time only)
-            ```
+# sometimes it may ask for a username and password if it's a private repository.
+# it may also ask you to enter your details so it can sign your commits (this is one time only)
+```
 
     - Review the changes on github.
     - Finally we want to make a pull request to the master repository (the one on my account)
